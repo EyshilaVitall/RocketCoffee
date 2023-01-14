@@ -1,0 +1,116 @@
+
+body{
+   
+    background: linear-gradient(68.15deg, #322352 16.62%, #06040A 85.61%) ;
+
+
+}
+
+.cabecalho-menu{
+    position: absolute;
+    width: 431.35px;
+    height: 19px;
+    left: 464px;
+    top: 65px;
+    color: #FFFFFF;
+    
+}
+button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 38px;
+gap: 10px;
+background-color: #06040A;
+color: #FFFFFF;
+position: absolute;
+width: 172px;
+height: 37px;
+left: 1026px;
+top: 56px;
+border: 1px solid #8257E5;
+border-radius: 6px;
+} 
+
+
+button:hover {
+    background-color:#322352;
+}
+h1{
+    position: absolute;
+width: 471px;
+height: 109px;
+left: 445px;
+top: 140px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 109px;
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h2{
+    position: absolute;
+    width: 548px;
+    height: 109px;
+    left: 406px;
+    top: 235px;
+    color: #8257E5;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    
+   
+    
+    
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img{
+    position: absolute;
+width: 537.55px;
+height: 506.47px;
+left: 435px;
+top: 319px;
+
+}
+.logo{
+position: absolute;
+width: 43.06px;
+height: 50px;
+left: 280px;
+top: 50px;
+}
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
